@@ -1,0 +1,48 @@
+KUBERNETES
+
+1. Kubernetes: 5 years of experience.
+
+2. Kubernetes features are: Automated Scheduling, Self Healing Capabilities, Automated rollouts and rollback, and
+Horizontal Scaling and Load Balancing.
+
+commands:
+sudo su - ubuntu
+hostnation
+
+sudo kubeadm init
+ls
+ls -a
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admi.conf $HOME/.Kubectl get pod -A
+#Kubeadm init
+kubectl get pod -A
+
+NEW COMMANDS:
+
+sudo kubeadm init
+
+how to creat a main bucket: aws s3 mb://class29v.k8.local
+
+Kind, APiVersion, Metadata, Spec (KAMS).
+
+Kind: POD
+APiversion: v1
+Metadata:
+Name: webapp
+Namespace: dev
+lables:
+app: webapp
+spec:
+
+
+
+
+
+
+
+
+
+
+
+
+
